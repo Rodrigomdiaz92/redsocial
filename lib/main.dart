@@ -64,7 +64,8 @@ Future<void> cargarDatos() async {
       initialRoute: '/',
       routes: {
         '/': (context) => const SplashIntroScreen(),
-        '/home': (context) => const HomeScreen(),
+        //'/home': (context) => const HomeScreen(),
+        '/home': (context) => FeedScreen(),
         '/login': (context) => LoginScreen(),
         //'/solicitud': (context) => const SolicitudFormScreen (),
         //'/confirmacion': (context) => const ConfirmacionReservaScreen (),
