@@ -23,5 +23,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/db.json
-    - assets/futappintro.json
+    - assets/bdpublicaciones.json
+    - assets/bdusuario.json
+    - assets/intro.json

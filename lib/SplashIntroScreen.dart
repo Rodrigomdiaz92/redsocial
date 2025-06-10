@@ -31,7 +31,7 @@ class _SplashIntroScreenState extends State<SplashIntroScreen> {
             const SizedBox(height: 20),
             Expanded(
               child: Lottie.asset(
-                'assets/futappintro.json',
+                'assets/intro.json',
                 onLoaded: (composition) {
                   Future.delayed(composition.duration, () {
                     setState(() {
