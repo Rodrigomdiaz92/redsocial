@@ -25,7 +25,7 @@
       "imagenPerfil": "assets/images/foodlover.jpg",
       "date": "2025-06-10 10:30",
       "mensaje": "Descubrí este café escondido en el centro. ¡Una joya!",
-      "adjunto": "assets/images/coffee.jpg",
+      "adjunto": "",
       "cantidadRetwits": 5,
       "cantidadGuardados": 14,
       "cantidadLikes": 67
@@ -55,7 +55,7 @@
       "imagenPerfil": "assets/images/fitlife.jpg",
       "date": "2025-06-10 12:45",
       "mensaje": "Una rutina corta, pero poderosa para comenzar el día 💪.",
-      "adjunto": "assets/images/workout.jpg",
+      "adjunto": "",
       "cantidadRetwits": 8,
       "cantidadGuardados": 10,
       "cantidadLikes": 45
@@ -85,7 +85,7 @@
       "imagenPerfil": "assets/images/gaming.jpg",
       "date": "2025-06-10 15:30",
       "mensaje": "¿Ya probaste el nuevo juego del año? Disponible ahora 🔥",
-      "adjunto": "assets/images/game.jpg",
+      "adjunto": "",
       "cantidadRetwits": 34,
       "cantidadGuardados": 25,
       "cantidadLikes": 150
@@ -115,7 +115,7 @@
       "imagenPerfil": "assets/images/cinefan.jpg",
       "date": "2025-06-10 17:15",
       "mensaje": "¿Cuál fue la mejor película que viste este año? 🎮",
-      "adjunto": "assets/images/movie.jpg",
+      "adjunto": "",
       "cantidadRetwits": 9,
       "cantidadGuardados": 6,
       "cantidadLikes": 40
@@ -145,7 +145,7 @@
       "imagenPerfil": "assets/images/auto.jpg",
       "date": "2025-06-10 19:30",
       "mensaje": "Conocé el nuevo modelo deportivo que está revolucionando el mercado 🚗",
-      "adjunto": "assets/images/car.jpg",
+      "adjunto": "",
       "cantidadRetwits": 20,
       "cantidadGuardados": 18,
       "cantidadLikes": 110
@@ -175,7 +175,7 @@
       "imagenPerfil": "assets/images/motofan.jpg",
       "date": "2025-06-10 21:00",
       "mensaje": "Descubrí la nueva línea de motos urbanas 🛵️",
-      "adjunto": "assets/images/motorcycle.jpg",
+      "adjunto": "",
       "cantidadRetwits": 13,
       "cantidadGuardados": 9,
       "cantidadLikes": 70

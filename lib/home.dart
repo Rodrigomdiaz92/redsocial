@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_application_2/feed.dart';
 import 'package:flutter_application_2/notificaciones.dart';
+import 'package:flutter_application_2/perfil.dart';
+import 'package:flutter_application_2/publicar.dart';
 import 'package:flutter_application_2/search.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -14,7 +16,8 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
-  List<dynamic> publicaciones = []; // Aquí guardamos las publicaciones
+  List<dynamic> publicaciones = [];
+  Map<String, dynamic> usuarioPerfil = {}; // Aquí guardamos las publicaciones
   bool isLoading = true;
 
   @override
@@ -27,8 +30,12 @@ class _HomeScreenState extends State<HomeScreen> {
     final String response =
         await rootBundle.loadString('assets/bdpublicaciones.json');
     final data = await json.decode(response);
+    final String res =
+        await rootBundle.loadString('assets/bdusuario.json');
+    final usuario = await json.decode(res);
     setState(() {
       publicaciones = data['publicaciones'];
+      usuarioPerfil = usuario['usuario_perfil'];
       isLoading = false;
     });
   }
@@ -51,14 +58,24 @@ class _HomeScreenState extends State<HomeScreen> {
     final List<Widget> _screens = [
       FeedScreen(publicaciones: publicaciones), // Pasamos los datos cargados
       BusquedaScreen(publicaciones: publicaciones.cast<Map<String, dynamic>>()),
-      const Center(child: Text("Pantalla de Publicar")),
+      //const Center(child: Text("Pantalla de Publicar")),
+      PublicarScreen(),
       NotificacionesWidget(),
-      const Center(child: Text("Pantalla de Perfil")),
+      //const Center(child: Text("Pantalla de Perfil")),
+      PerfilScreen(usuarioPerfil: usuarioPerfil)
     ];
 
     return Scaffold(
       appBar: AppBar(
         title: const Text("ReDsocial"),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.chat_outlined),
+            onPressed: () {
+              Navigator.pushNamed(context, '/chat');
+            },
+          )
+        ],
       ),
       drawer: Drawer(
         child: ListView(
@@ -89,8 +106,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             ListTile(
-              title: const Text("📌Guardados"),
-              onTap: () {},
+              title: const Text("Tutorial"),
+              onTap: () {
+                Navigator.pushNamed(context, '/introapp');
+              },
             ),
           ],
         ),

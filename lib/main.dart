@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/SplashIntroScreen.dart';
+import 'package:flutter_application_2/chat.dart';
 import 'package:flutter_application_2/home.dart';
+import 'package:flutter_application_2/introturo.dart';
 import 'package:flutter_application_2/login.dart';
 
 
@@ -34,6 +36,8 @@ class _MyAppState extends State<MyApp> {
         '/': (context) => const SplashIntroScreen(),        
         '/home': (context) => HomeScreen(),
         '/login': (context) => LoginScreen(),
+        '/chat': (context) => MensajeriaScreen(),
+        '/introapp': (context) => TutorialScreen(),
         
       },
     );
