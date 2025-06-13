@@ -25,7 +25,7 @@
       "imagenPerfil": "assets/images/foodlover.jpg",
       "date": "2025-06-10 10:30",
       "mensaje": "Descubrí este café escondido en el centro. ¡Una joya!",
-      "adjunto": "",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 5,
       "cantidadGuardados": 14,
       "cantidadLikes": 67
@@ -52,7 +52,7 @@
       "usuario": "@fitlife",
       "seguidor": false,
       "promocional": false,
-      "imagenPerfil": "assets/images/fitlife.jpg",
+      "imagenPerfil": "assets/img/baner.png",
       "date": "2025-06-10 12:45",
       "mensaje": "Una rutina corta, pero poderosa para comenzar el día 💪.",
       "adjunto": "",
@@ -85,7 +85,7 @@
       "imagenPerfil": "assets/images/gaming.jpg",
       "date": "2025-06-10 15:30",
       "mensaje": "¿Ya probaste el nuevo juego del año? Disponible ahora 🔥",
-      "adjunto": "",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 34,
       "cantidadGuardados": 25,
       "cantidadLikes": 150
@@ -115,7 +115,7 @@
       "imagenPerfil": "assets/images/cinefan.jpg",
       "date": "2025-06-10 17:15",
       "mensaje": "¿Cuál fue la mejor película que viste este año? 🎮",
-      "adjunto": "",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 9,
       "cantidadGuardados": 6,
       "cantidadLikes": 40
@@ -145,7 +145,7 @@
       "imagenPerfil": "assets/images/auto.jpg",
       "date": "2025-06-10 19:30",
       "mensaje": "Conocé el nuevo modelo deportivo que está revolucionando el mercado 🚗",
-      "adjunto": "",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 20,
       "cantidadGuardados": 18,
       "cantidadLikes": 110
@@ -175,7 +175,7 @@
       "imagenPerfil": "assets/images/motofan.jpg",
       "date": "2025-06-10 21:00",
       "mensaje": "Descubrí la nueva línea de motos urbanas 🛵️",
-      "adjunto": "",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 13,
       "cantidadGuardados": 9,
       "cantidadLikes": 70
@@ -190,7 +190,7 @@
       "imagenPerfil": "assets/images/nature.jpg",
       "date": "2025-06-10 22:30",
       "mensaje": "Un atardecer que te deja sin palabras 🌇",
-      "adjunto": "assets/images/sunset.jpg",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 22,
       "cantidadGuardados": 14,
       "cantidadLikes": 130
@@ -235,7 +235,7 @@
       "imagenPerfil": "assets/images/travelbuddy.jpg",
       "date": "2025-06-11 09:30",
       "mensaje": "Ofertas exclusivas para tus próximas vacaciones ✈️",
-      "adjunto": "assets/images/travel_offer.jpg",
+      "adjunto": "assets/img/banner.png",
       "cantidadRetwits": 25,
       "cantidadGuardados": 20,
       "cantidadLikes": 140

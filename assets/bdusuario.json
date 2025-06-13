@@ -7,7 +7,7 @@
     "descripcion": "Diseñador gráfico apasionado por la fotografía y el arte urbano. Compartiendo inspiración diaria.",
     "fecha de nacimiento": "1994-07-12",
     "localidad": "Barcelona, España",
-    "bannerPerfil": "assets/images/banner1.jpg",
+    "bannerPerfil": "assets/img/banner.png",
     "seguidores": [
       "@luzverde",
       "@futuroinfinito",
@@ -45,7 +45,7 @@
       "@musicaurbana",
       "@tecnologianueva"
     ],
-    "imagenPerfil": "assets/images/homedeco.jpg",
+    "imagenPerfil": "assets/img/perfil.png",
     "publicaciones": [
       {
         "idusuario": 101,

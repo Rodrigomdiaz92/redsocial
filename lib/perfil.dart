@@ -40,6 +40,7 @@ class _PerfilScreenState extends State<PerfilScreen> with SingleTickerProviderSt
                 children: [
                   // Banner
                   Stack(
+                    clipBehavior: Clip.none, // Esto es CLAVE para que la imagen pueda "salirse" del Stack sin que se corte
                     alignment: Alignment.bottomCenter,
                     children: [
                       Image.asset(
@@ -53,6 +54,7 @@ class _PerfilScreenState extends State<PerfilScreen> with SingleTickerProviderSt
                         child: CircleAvatar(
                           radius: 40,
                           backgroundImage: AssetImage(widget.usuarioPerfil['imagenPerfil']),
+                          
                         ),
                       ),
                     ],

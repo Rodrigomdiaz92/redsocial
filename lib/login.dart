@@ -57,6 +57,7 @@ class LoginScreen extends StatelessWidget {
                     TextButton(
                       onPressed: () {
                         // Lógica para ir a registro
+                        Navigator.pushReplacementNamed(context, '/introapp');
                       },
                       child: const Text('Registrate'),
                     ),
@@ -79,7 +80,7 @@ class LoginScreen extends StatelessWidget {
               onPressed: () {
                 // Acción futura: entrar sin loguearse
                 print("Login omitido");
-                Navigator.pushReplacementNamed(context, '/home');
+                Navigator.pushReplacementNamed(context, '/introapp');
               },
             ),
           ),

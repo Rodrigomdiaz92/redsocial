@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/home.dart';
+import 'package:lottie/lottie.dart';
 
 class TutorialScreen extends StatefulWidget {
   const TutorialScreen({super.key});
@@ -14,11 +15,11 @@ class _TutorialScreenState extends State<TutorialScreen> {
 
   final List<Map<String, String>> tutorialData = [
     {
-      'imagen': 'assets/tutorial1.png',
+      'imagen': 'assets/tutorial.json',
       'texto': 'Bienvenido a ReDsocial 🌈\nUn lugar donde compartimos alegría, buena vibra y apoyo mutuo.',
     },
     {
-      'imagen': 'assets/tutorial2.png',
+      'imagen': 'assets/tutorial2.json',
       'texto': 'Aquí solo hay espacio para mensajes positivos 🤗\nNo se permiten agresiones ni malas vibras.',
     },
   ];
@@ -64,7 +65,7 @@ class _TutorialScreenState extends State<TutorialScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset(
+                    Lottie.asset(
                       item['imagen']!,
                       height: 400,
                       fit: BoxFit.contain,

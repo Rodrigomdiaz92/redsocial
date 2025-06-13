@@ -25,4 +25,9 @@ flutter:
   assets:
     - assets/bdpublicaciones.json
     - assets/bdusuario.json
-    - assets/intro.json
+    - assets/nuevaintro.json
+    - assets/tutorial.json
+    - assets/tutorial2.json
+    - assets/img/perfil.png
+    - assets/img/banner.png
+
